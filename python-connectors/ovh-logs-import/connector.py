@@ -108,7 +108,7 @@ class MyConnector(Connector):
         """
         Return the partitioning schema that the connector defines.
         """
-        raise Exception("Unimplemented")
+        raise Exception("Dataset is not partitioned")
 
     def get_records_count(self, partition_id=None):
         """
